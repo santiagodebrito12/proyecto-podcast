@@ -1,0 +1,43 @@
+body{
+    background-color: $coloruno;
+nav{
+    float: right;
+    padding:10px
+}
+.nav1{
+    padding:10px;
+    text-decoration: none;
+    color:$colorletra;
+
+
+}
+    h1{
+    font-size: 36px;
+    font-family: $fuente;
+    text-align: center;
+    }
+    span{
+        text-decoration:line-through;
+    }
+    p{
+        color:$colorletra;
+        margin-left:400px;
+
+    }
+
+#boton{
+    width: 288px;
+    height: 48px;
+    background-color: $colorbutton;
+    margin-left:500px;
+
+
+}
+#episodios{
+    background-color: blue;
+}
+#phone{
+    width: 360px;
+    height: 519px;
+}
+}

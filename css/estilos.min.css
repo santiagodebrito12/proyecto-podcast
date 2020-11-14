@@ -1,0 +1,52 @@
+body {
+  background-color: #FFFFFF;
+}
+
+body nav {
+  float: right;
+  padding: 10px;
+}
+
+body .nav1 {
+  padding: 10px;
+  text-decoration: none;
+  color: #060A24;
+}
+
+body h1 {
+  font-size: 36px;
+  font-family: IBMPlexSans;
+  text-align: center;
+}
+
+body span {
+  text-decoration: line-through;
+}
+
+body p {
+  color: #060A24;
+  margin-left: 400px;
+}
+
+body #boton {
+  width: 288px;
+  height: 48px;
+  background-color: #00F3BB;
+  margin-left: 500px;
+}
+
+body #episodios {
+  background-color: blue;
+}
+
+body #phone {
+  width: 360px;
+  height: 519px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+/*# sourceMappingURL=estilos.min.css.map */

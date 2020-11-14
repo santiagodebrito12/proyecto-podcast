@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,KAAK;EACpB,AAAA,IAAI,CAAA;IACA,gBAAgB,EAAE,IAAI;GACzB",
+    "sources": [
+        "../partials/mediaqueris.scss"
+    ],
+    "names": [],
+    "file": "mediaqueris.min.css"
+}
