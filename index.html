@@ -4,16 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Podcast</title> 
+    <script src="https://kit.fontawesome.com/ec2c9cb198.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&family=IBM+Plex+Sans:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.min.css">
 </head>
 <body>
     <header>
         <img src="./imag/logo.svg" alt="logo">
         <nav class="menu">
-                  <a href="#episodios" class="nav1">episodios</a>
-                  <a href="#nosotros" class="nav1">nosotros</a>
-                  <a href="#entrevistas"class="nav1">entrevistas</a>
-                  <a href="#topicos" class="nav1">topicos</a>
+            <input type="checkbox" id="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+            
+                  <ul>
+                      <li><a href="#episodios">episodios</a></li>
+                      <li><a href="#entrevistas">entrevistas</a></li>
+                      <li><a href="#nosotros">nosotros</a></li>
+                      <li><a href="#topicos">topicos</a></li>
+
+                  </ul>
         </ul>
         </nav>
     </header>
@@ -22,8 +35,9 @@
         <p>el portal de podcast que explota el mundo de la programacion y la tecnologia.<br> 
             Nuevos episodios ,todos los jueves cada 15 dias.</p>
         <button id="boton"> Conoce mas</button>
-        <h2>probando git</h2>
+        
     </div>
+    <div class="diagonal">
     <section id="episodios">
         <h2>episodios</h2>
         <img src="./imag/embed1_.png" alt="spotify1" width="298px" height="225px"> 
@@ -31,10 +45,11 @@
         <img src="./imag/embed3_.png" alt="spotify1" width="298px" height="225px">
         <img src="./imag/embed4_ (1).png" alt="spotify1" width="298px" height="225px">
     </section>
+</div>
     <section id="nosotros">
         <img src="./imag/nosotros.png" alt="nosotros" id="phone">
         <h2> de donde venimos</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ab suscipit est, ducimus id laboriosam molestiae, iure itaque nam hic saepe natus labore maiores voluptas quia odio commodi eveniet accusamus?</p>
+        <p class="donde-v">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ab suscipit est, ducimus id laboriosam molestiae, iure itaque nam hic saepe natus labore maiores voluptas quia odio commodi eveniet accusamus?</p>
     </section>
 
     <section id="invitados">
@@ -65,7 +80,12 @@
   </section>  
   <footer>
       <p>@2019-hello blue pale dot</p>
-
+      <ul class="list-redes">
+          <li class="fab fa-facebook"></li>
+          <li class="fab fa-twitter"></li>
+          <li class="fab fa-instagram"></li>
+          <li class="fab fa-telegram"></li>
+      </ul>
   </footer> 
         
 

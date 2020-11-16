@@ -8,6 +8,7 @@ nav{
     padding:10px;
     text-decoration: none;
     color:$colorletra;
+    font-family: $fuente2;
 
 
 }
@@ -39,5 +40,25 @@ nav{
 #phone{
     width: 360px;
     height: 519px;
+}
+.diagonal{
+    color: white;
+    position: relative;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    background-color: blue;
+    background:radial-gradient(circle, rgba(42,9,121,1) 100%);
+    clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+
+}
+.donde-v{
+    font-family: $fuente2;
+}
+footer p{
+   margin-left: 550px;
+}
+.list-redes{
+    position: relative;
+   left: 550px;
 }
 }
