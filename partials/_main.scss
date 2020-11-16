@@ -1,11 +1,13 @@
 body{
     background-color: $coloruno;
+    font-family: $fuente2;
 nav{
     float: right;
-    padding:10px
+    padding:0.625rem;
+
 }
 .nav1{
-    padding:10px;
+    padding:0.625rem;
     text-decoration: none;
     color:$colorletra;
     font-family: $fuente2;
@@ -13,7 +15,7 @@ nav{
 
 }
     h1{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: $fuente;
     text-align: center;
     }
@@ -21,25 +23,28 @@ nav{
         text-decoration:line-through;
     }
     p{
+        text-align: center;
         color:$colorletra;
-        margin-left:400px;
+        font-family: $fuente2;
 
     }
 
 #boton{
-    width: 288px;
-    height: 48px;
+    width: 18rem;
+    height: 3rem;
     background-color: $colorbutton;
-    margin-left:500px;
-
-
+    margin-left:31.25rem;
+}
+.spotify{
+    width: 18.625rem;
+    height: 14.063rem;
 }
 #episodios{
     background-color: blue;
 }
 #phone{
-    width: 360px;
-    height: 519px;
+    width: 22.5rem;
+    height: 32.43rem;
 }
 .diagonal{
     color: white;
@@ -51,14 +56,14 @@ nav{
     clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
 
 }
-.donde-v{
-    font-family: $fuente2;
+.-nosotros{
+    display: inline-block;
 }
 footer p{
-   margin-left: 550px;
+   margin-left: 34.37rem;
 }
 .list-redes{
     position: relative;
-   left: 550px;
+   left: 34.37rem;
 }
 }
