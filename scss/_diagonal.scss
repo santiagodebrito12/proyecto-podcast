@@ -1,0 +1,11 @@
+.diagonal{
+    width: 100%;
+    color: white;
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 12rem;
+    background-color: blue;
+    background:radial-gradient(circle, rgba(42,9,121,1) 100%);
+    clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+    z-index: 0;
+}

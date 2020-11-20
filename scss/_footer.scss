@@ -1,0 +1,22 @@
+/*.derechos{
+    display: flex;
+    justify-content: center;*/
+
+/*.list-redes{
+    padding: 5px;*/
+
+@media (min-width: widht 769px) { 
+    .derechos{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .list-redes #redes{
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+}
+
+
+
+

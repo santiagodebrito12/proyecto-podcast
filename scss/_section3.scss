@@ -1,0 +1,16 @@
+@media (max-width:768px){
+    .invitados-img{
+        width: 100%;
+    }
+}
+@media (min-width: widht 769px) { 
+    div .fotos-invitados{
+        display: flex;
+    }
+    .invitados-img{
+        margin: 0px;
+        padding: 0px;
+        width: 30%;
+    }
+
+}

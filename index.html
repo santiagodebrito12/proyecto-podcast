@@ -7,21 +7,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&family=IBM+Plex+Sans:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ec2c9cb198.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/estilos.min.css">
+    <link rel="stylesheet" href="dist/css/estilos.min.css">
 </head>
 <body>
     <header>
         <img src="./imag/logo.svg" alt="logo">
         <nav class="menu">
-            <!--<input type="checkbox" id="checkbox">
-            <span></span>
-            <span></span>
-            <span></span>-->
-                  
-                      <a href="#episodios">episodios</a>
-                      <a href="#entrevistas">entrevistas</a>
-                      <a href="#nosotros">nosotros</a>
-                      <a href="#topicos">topicos</a>
+            <ul class="lista-menu">
+                    <li><a href="#episodios">episodios</a></li>
+                    <li><a href="#entrevistas">entrevistas</a></li>
+                    <li><a href="#nosotros">nosotros</a></li>
+                    <li><a href="#topicos">topicos</a></li>
+            </ul>
                   
         </nav>
     </header>
@@ -30,73 +27,76 @@
          <p>el portal de podcast que explota el mundo de la programacion y la tecnologia.<br> 
             Nuevos episodios ,todos los jueves cada 15 dias.</p>
          <button id="boton"> Conoce mas</button>
-        
     </div>
     <div class="diagonal">
      <h2 id="titulo-e">episodios</h2>
     <section id="episodios">
-        <iframe src="https://open.spotify.com/embed-podcast/episode/6eCHJ8yOYtksW8OT93Dbdu" width="50%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media" width="25%"></iframe>
-        <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="50%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media" ></iframe>
-        <br>
-        <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" width="50%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" width="50%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <div class="container-episodios">
+        <iframe src="https://open.spotify.com/embed-podcast/episode/6eCHJ8yOYtksW8OT93Dbdu"  frameborder="0" allowtransparency="true" allow="encrypted-media" class="iframe"></iframe>
+        <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"   frameborder="0" allowtransparency="true" allow="encrypted-media" class="iframe"></iframe>
+        </div>
+        <div class="container-episodios">
+        <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"  frameboder="0" allowtransparency="true" allow="encrypted-media" class="iframe"></iframe>
+        <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"  frameborder="0" allowtransparency="true" allow="encrypted-media" class="iframe"></iframe>
+        </div>
     </section>
-</div>
+   </div>
 <div class="container">
-        <img src="./imag/nosotros.png" alt="nosotros"  width="457px" height="660px">
+        <img src="./imag/nosotros.png" alt="nosotros"  width="457px" height="660px" id="telefono">
         <div class="container2">
         <h2 class="hijo" > de donde venimos </h2>
         <p class="hijo" >Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged   by this point of pale light. 
          Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
         </div>
-        
-    
 </div>
        <h2>invitadas/os estelares</h2>
     <section id="invitados">
-        <img src="./imag/invitada1.png" alt="invitada1" width="440px" height="340px" class="hijos-invitados">
-        <img src="./imag/invitada2.png" alt="invitada2" width="440px" height="340px">
-        <img src="./imag/invitada3.png" alt="invitada3" width="440px" height="340px">
-        <img src="./imag/invitada4.png" alt="invitada4" width="440px" height="340px">
-        <img src="./imag/invitada5.png" alt="invitada5" width="440px" height="340px">
-        <img src="./imag/invitada6.png" alt="invitada6" width="440px" height="340px">
+        <div class="fotos-invitados">
+        <img src="./imag/invitada1.png" alt="invitada1" class="invitados-img" >
+        <img src="./imag/invitada2.png" alt="invitada2" class="invitados-img" >
+        <img src="./imag/invitada3.png" alt="invitada3" class="invitados-img" >
+        <img src="./imag/invitada4.png" alt="invitada4" class="invitados-img">
+        <img src="./imag/invitada5.png" alt="invitada5" class="invitados-img">
+        <img src="./imag/invitada6.png" alt="invitada6" class="invitados-img">
+        </div>
   </section>  
-  <h2>alguno de nuestros temas</h2>
+  <div class="conteiner4">
+  <h2>Alguno de nuestros temas</h2>
   <div id="temas">
-      <div class="hijos">
+      <div class="hijos-temas" >
       <img src="./imag/icon1.svg" alt="icon1" class="iconos">
       <p> trabajo remoto </p>
       </div>   
-      <div class="hijos">
+      <div class="hijos-temas">
      <img src="./imag/icon2.svg" alt="icon2" class="iconos">
       <p> repensando la programacion </p>
       </div>
-      <div class="hijos">
+      <div class="hijos-temas">
       <img src="./imag/icon3.svg" alt="icon3"class="iconos">
       <p> bases del codigo </p>
       </div>
-      <div class="hijos">
+      <div class="hijos-temas">
       <img src="./imag/icon4.svg" alt="icon4"class="iconos">
       <p>seguridad informatica</p>
       </div>
   </div> 
-  <section class="diagonal" id="novedades">
-      <h2> ¿Queres las ultimas novedad? </h2>
+</div>
+  <section class="diagonal" >
+      <div class="novedades">
+      <h2 id="novedades"> ¿Queres las ultimas novedades? </h2>
       <button id="boton"> escucha los episodios </button>
+      </div>  
   </section>  
   <footer>
-      <div class="foot">
-      <p>@2019-hello blue pale dot</p>
-      <ul class="list-redes">
-          <li class="fab fa-facebook"></li>
+    <div class="foot">
+      <p class="derechos">@2019-hello blue pale dot</p>
+    </div>
+     <ul class="list-redes" id="redes"> 
+          <li class="fa fa-facebook"></li>
           <li class="fab fa-twitter"></li>
           <li class="fab fa-instagram"></li>
           <li class="fab fa-telegram"></li>
       </ul>
-    </div>
-  </footer> 
-        
-
-    
+  </footer>   
 </body>
 </html>

@@ -1,0 +1,22 @@
+@media (max-width:768px){
+
+.hijos-temas{
+    padding: 5px;
+    font-family: $fuente;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div .hijos-temas p {
+position: relative;
+left: 10rem;
+}
+}
+@media (min-width:769px){
+    div #temas{
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
