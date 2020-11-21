@@ -1,9 +1,16 @@
-#novedades {
+/*#novedades {
   width: 70%;
   font-family: $fuente;
   font-size: 2.25rem;
-  margin: auto;
-}
+  margin: auto;*/
+
 @media (min-width:769px){
+  .novedades{
+    display: block;    
+        margin: auto;
+        position: relative; 
+        left: 25rem;
+        
+  }
 
 }

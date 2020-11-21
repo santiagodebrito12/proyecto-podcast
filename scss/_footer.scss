@@ -7,16 +7,10 @@
 
 @media (min-width: widht 769px) { 
     .derechos{
-        display: flex;
-        justify-content: flex-start;
+        position: relative;
+        left: 0px;
     }
-    .list-redes #redes{
-        display: flex;
-        justify-content: flex-end;
+    
         
-    }
+   
 }
-
-
-
-
