@@ -6,11 +6,14 @@
     padding: 5px;*/
 
 @media (min-width: widht 769px) { 
-    .derechos{
+
+    p .derechos{
         position: relative;
-        left: 0px;
+        float: left;
     }
-    
-        
+    ul .list-redes{
+        position: relative;
+        float: right;
+    }
    
 }

@@ -6,6 +6,8 @@
 @media (min-width: widht 769px) { 
     div .fotos-invitados{
         display: flex;
+        flex-wrap: wrap;
+        
     }
     
 }

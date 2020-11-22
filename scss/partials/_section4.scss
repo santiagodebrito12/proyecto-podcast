@@ -8,15 +8,21 @@
     flex-direction: column;
     justify-content: center;
 }
-div .hijos-temas p {
-position: relative;
-left: 10rem;
+
+div .hijos-temas p{
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 40%;
+
 }
 }
+
 @media (min-width:769px){
     div #temas{
+        font-weight: bold;
         display: flex;
         justify-content: space-around;
     }
+}    
 
-}
