@@ -2,20 +2,21 @@
     margin-left: 0px;
 }
 .contenedor-titulo h1{
-    width: 45%;
+    width: 55%;
 }
 .contenedor-titulo h1 span{
     text-decoration: line-through;
 }
 .contenedor-titulo p{
-    width: 50%;
+    width: 55%;
 }
 @media (min-width:769px) { 
     .contenedor-titulo{
         display: block;    
         margin: auto;
         position: relative; 
-        left: 25rem;
+        left: 18rem;
+        font-size: 1.2rem;
         
     }
 }

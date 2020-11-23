@@ -25,6 +25,8 @@
     background-color: grey;
   }
   .menu a {
+    color: #060A24;
+    text-decoration: none;
     padding: 16px 5%;
     line-height: 28px;
     display: block;
@@ -62,7 +64,6 @@
     opacity: 1;
     height: auto;
   }
-  /*movimiento a cruz*/
   input[type="checkbox"]:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(2px, 1px);
@@ -76,20 +77,35 @@
 }
 
 @media (min-width: 769px) {
+  nav {
+    overflow: hidden;
+    display: flex;
+  }
   input[type="checkbox"] {
     opacity: 0;
   }
   .menu {
     float: right;
   }
-  .lista-menu {
-    padding: 10px;
+  ul {
+    display: flex;
+    list-style: none;
   }
-  nav ul li a {
+  ul li {
     text-decoration: none;
-    padding: 5px;
-    display: inline;
+    list-style: none;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+  }
+  ul li a {
+    text-decoration: none;
     color: #060A24;
+    font-size: 16px;
+    font-weight: bold;
   }
 }
 
@@ -105,67 +121,12 @@ header {
   overflow: hidden;
 }
 
-/*.menu{
-     float: right;
-    padding:10px;
-    border: 1px solid red;
-    text-decoration: none;
-    
-}   
-
-
-.container2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-/*#phone{
-    width: 22.5rem;
-    height: 32.43rem;*/
-/*.menu{
-    ul{
-        position: absolute;
-        top: 50px;
-        right: 0;
-        width: 100%;
-        height: 0;
-        opacity: 0;
-        background-color: white;
-    }
-a{
-    padding: 10px 5px;
-    line-height: 20px;
-    display: block;
-}
-input[type="checkbox"]{
-display: block;
-width: 40px;
-height: 32px;
-opacity: 0;
-z-index: 2;
-position: absolute;
-}
-.menu span{
-    display: block;
-    width: 25px;
-    height: 2.5px;
-    margin-bottom: 6.5px;
-    position: relative;
-    background-color: grey;
-    z-index: 1;
-    transform-origin: 3px 0px;
-    transition: transform 0.5s ease,
-                opacity 0.55s ease;
-}
-.menu span:nth-last-child(2){
-    transform-origin: 0% 100%;
-}*/
 .contenedor-titulo {
   margin-left: 0px;
 }
 
 .contenedor-titulo h1 {
-  width: 45%;
+  width: 55%;
 }
 
 .contenedor-titulo h1 span {
@@ -173,7 +134,7 @@ position: absolute;
 }
 
 .contenedor-titulo p {
-  width: 50%;
+  width: 55%;
 }
 
 @media (min-width: 769px) {
@@ -181,18 +142,22 @@ position: absolute;
     display: block;
     margin: auto;
     position: relative;
-    left: 25rem;
+    left: 18rem;
+    font-size: 1.2rem;
   }
 }
 
 #boton {
   text-decoration: none;
   padding: 5px;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 18px;
   width: 18rem;
   height: 3rem;
   background-color: #00F3BB;
   margin: auto;
+  border: none;
+  font-weight: bold;
 }
 
 .diagonal {
@@ -274,10 +239,15 @@ position: absolute;
   }
 }
 
-@media (min-width: widht 769px) {
+@media (min-width: 769px) {
   div .fotos-invitados {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+  }
+  .invitados-img {
+    width: 32%;
+    padding: 0px;
+    margin: 0px;
   }
 }
 
@@ -304,6 +274,10 @@ position: absolute;
     display: flex;
     justify-content: space-around;
   }
+  div .hijos-temas p {
+    font-family: sans-serif;
+    font-weight: bold;
+  }
 }
 
 /*#novedades {
@@ -320,19 +294,18 @@ position: absolute;
   }
 }
 
-/*.derechos{
+@media (max-width: 768px) {
+  footer {
+    width: 100%;
     display: flex;
-    justify-content: center;*/
-/*.list-redes{
-    padding: 5px;*/
-@media (min-width: widht 769px) {
-  p .derechos {
-    position: relative;
-    float: left;
+    flex-direction: column;
   }
-  ul .list-redes {
-    position: relative;
-    float: right;
+}
+
+@media (min-width: 769px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
   }
 }
 /*# sourceMappingURL=estilos.min.css.map */

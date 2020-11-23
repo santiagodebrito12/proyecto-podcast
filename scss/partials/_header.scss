@@ -28,9 +28,12 @@ header{
           }
        }
        a{
+          color: $colorletra;
+          text-decoration: none;
           padding: 16px 5%;
           line-height: 28px;
           display: block;
+          
 
           &:hover{
              color: white;
@@ -66,10 +69,10 @@ header{
 }
 input[type="checkbox"]:checked ~ ul {
    opacity: 1;
-   height: auto; //pasa de height 0 a lo que tenga de contenido
+   height: auto; 
  }
  
- /*movimiento a cruz*/
+
  input[type="checkbox"]:checked ~ span {
      opacity: 1;
      transform: rotate(45deg) translate(2px, 1px);
@@ -84,19 +87,37 @@ input[type="checkbox"]:checked ~ ul {
    
 
 @media (min-width:769px){
+   nav{
+      overflow: hidden;
+      display: flex;
+   }
    input[type="checkbox"]{
       opacity: 0;
    }
    .menu{
       float: right;
    }
-   .lista-menu{
-      padding: 10px;
+   ul{
+      display: flex;
+      list-style: none;
+   
+      
    }
-   nav ul li a{
+   ul li{
       text-decoration: none;
-      padding: 5px;
-      display: inline;
+      list-style: none;
+      margin-top: 0px;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-bottom: 0px;
+      font-family:$fuente2;
+      font-size: 1rem;
+   }
+   ul li a{
+      text-decoration: none;
       color: $colorletra;
+      font-size: 16px;
+      font-weight: bold;
    }
 }
+   

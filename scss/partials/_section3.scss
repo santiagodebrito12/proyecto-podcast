@@ -3,11 +3,16 @@
         width: 100%;
     }
 }
-@media (min-width: widht 769px) { 
-    div .fotos-invitados{
+@media (min-width:769px) { 
+    div .fotos-invitados {
+        width: 100%;
         display: flex;
-        flex-wrap: wrap;
-        
     }
-    
-}
+    .invitados-img{
+     width:32%;
+     padding: 0px;
+     margin: 0px;
+     }
+    }
+
+     
