@@ -3,7 +3,6 @@
 .hijos-temas{
     padding: 5px;
     font-family: $fuente;
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +12,7 @@ div .hijos-temas p{
     font-family: sans-serif;
     font-weight: bold;
     position: relative;
-    left: 40%;
+    left: 35%;
 
 }
 }

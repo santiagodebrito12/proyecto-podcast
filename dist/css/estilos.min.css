@@ -110,7 +110,7 @@
 }
 
 body {
-  max-width: width 100% vw;
+  max-width: 100vw;
   background-color: #FFFFFF;
   font-family: "IBM Plex Mono", monospace;
   margin: 0px;
@@ -173,11 +173,10 @@ header {
 }
 
 #titulo-e {
+  font-family: "IBM Plex Mono", monospace;
   overflow: hidden;
-  margin: -5px;
-  padding: 10px;
+  margin-top: -10px;
   font-size: 2.25rem;
-  font-family: "IBM Plex Sans", sans-serif;
 }
 
 #episodios .iframe {
@@ -255,7 +254,6 @@ header {
   .hijos-temas {
     padding: 5px;
     font-family: "IBM Plex Sans", sans-serif;
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -264,7 +262,7 @@ header {
     font-family: sans-serif;
     font-weight: bold;
     position: relative;
-    left: 40%;
+    left: 35%;
   }
 }
 
