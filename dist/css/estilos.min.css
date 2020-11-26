@@ -110,7 +110,6 @@
 }
 
 body {
-  max-width: 100vw;
   background-color: #FFFFFF;
   font-family: "IBM Plex Mono", monospace;
   margin: 0px;
@@ -119,10 +118,6 @@ body {
 
 header {
   overflow: hidden;
-}
-
-.contenedor-titulo {
-  margin-left: 0px;
 }
 
 .contenedor-titulo h1 {
@@ -139,15 +134,16 @@ header {
 
 @media (min-width: 769px) {
   .contenedor-titulo {
-    display: block;
     margin: auto;
-    position: relative;
-    left: 18rem;
-    font-size: 1.2rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
-#boton {
+.boton {
   text-decoration: none;
   padding: 5px;
   font-family: "IBM Plex Mono", monospace;
@@ -158,6 +154,8 @@ header {
   margin: auto;
   border: none;
   font-weight: bold;
+  text-decoration: none;
+  color: #060A24;
 }
 
 .diagonal {
@@ -235,6 +233,7 @@ header {
 @media (max-width: 768px) {
   .invitados-img {
     width: 100%;
+    margin: -5px;
   }
 }
 
@@ -244,9 +243,9 @@ header {
     display: flex;
   }
   .invitados-img {
-    width: 32%;
+    width: 33%;
     padding: 0px;
-    margin: 0px;
+    margin: -5px;
   }
 }
 
@@ -258,11 +257,12 @@ header {
     flex-direction: column;
     justify-content: center;
   }
-  div .hijos-temas p {
-    font-family: sans-serif;
+  div .hijos-temas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
-    position: relative;
-    left: 35%;
   }
 }
 
@@ -272,24 +272,22 @@ header {
     display: flex;
     justify-content: space-around;
   }
-  div .hijos-temas p {
-    font-family: sans-serif;
+  div .hijos-temas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
   }
 }
 
-/*#novedades {
-  width: 70%;
-  font-family: $fuente;
-  font-size: 2.25rem;
-  margin: auto;*/
-@media (min-width: 769px) {
-  .novedades {
-    display: block;
-    margin: auto;
-    position: relative;
-    left: 25rem;
-  }
+.novedades {
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -297,6 +295,8 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 

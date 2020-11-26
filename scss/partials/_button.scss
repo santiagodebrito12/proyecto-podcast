@@ -1,4 +1,4 @@
-#boton{
+.boton{
     text-decoration: none;
     padding: 5px;
     font-family: $fuente2;
@@ -9,5 +9,7 @@
     margin: auto;
     border: none;
     font-weight: bold;
+    text-decoration: none;
+    color: $colorletra;
     
 }

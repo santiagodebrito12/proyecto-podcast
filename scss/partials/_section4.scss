@@ -8,11 +8,12 @@
     justify-content: center;
 }
 
-div .hijos-temas p{
-    font-family: sans-serif;
+div .hijos-temas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
-    position: relative;
-    left: 35%;
 
 }
 }
@@ -23,8 +24,11 @@ div .hijos-temas p{
         display: flex;
         justify-content: space-around;
     }
-    div .hijos-temas p{
-        font-family: sans-serif;
+    div .hijos-temas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         font-weight: bold;
     }
 }    

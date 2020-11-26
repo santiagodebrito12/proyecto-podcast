@@ -1,6 +1,7 @@
 @media (max-width:768px){
     .invitados-img{
         width: 100%;
+        margin: -5px;
     }
 }
 @media (min-width:769px) { 
@@ -9,9 +10,9 @@
         display: flex;
     }
     .invitados-img{
-     width:32%;
+     width:33%;
      padding: 0px;
-     margin: 0px;
+     margin: -5px;
      }
     }
 
