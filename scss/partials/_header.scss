@@ -87,15 +87,17 @@ input[type="checkbox"]:checked ~ ul {
    
 
 @media (min-width:769px){
-   nav{
-      overflow: hidden;
+   header{
       display: flex;
+      justify-content: space-between;
    }
    input[type="checkbox"]{
       opacity: 0;
    }
    .menu{
-      float: right;
+      display: flex;
+      justify-content: space-between;
+      overflow: hidden;
    }
    ul{
       display: flex;
