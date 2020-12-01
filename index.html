@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Podcast</title> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&family=IBM+Plex+Sans:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&family=IBM+Plex+Sans:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ec2c9cb198.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="dist/css/estilos.min.css">
 </head>
@@ -27,12 +27,13 @@
         </nav>
     </header>
     <div class="contenedor-titulo">
-         <h1> Hello <span> world</span> pale blue dot </h1>
+         <h1>Hello <span>world</span> pale blue dot<span class="punto">.</span></h1>
          <p>El portal de podcast que explota el mundo de la programacion y la tecnologia.
             Nuevos episodios ,todos los jueves cada 15 dias.</p>
-         <button class="boton"><a href="#nosotros" class="boton">Conoce mas</a></button>
+         <a href="#nosotros" class="boton">Conoce mas</a>
     </div>
-    <div class="diagonal">
+
+    <div class="diagonal" class="episodios">
      <section id="episodios">
          <h2 id="titulo-e">Episodios</h2>
         <div class="container-episodios">
@@ -90,12 +91,12 @@
   <section class="diagonal" >
       <div class="novedades">
           <h2 id="novedades"> ¿Queres las ultimas novedades? </h2>
-          <button class="boton"> <a href="#episodios" class="boton"> escucha los episodios </a></button>
+          <a href="#episodios" class="boton">Escucha los episodios</a>
       </div>  
   </section>  
   
   <footer class="foot">
-      <p class="derechos">@2019-hello blue pale dot</p>
+      <p class="derechos">©2019-hello blue pale dot</p>
       <ul class="list-redes" > 
           <li class="fa fa-spotify"></li>
           <li class="fa fa-facebook"></li>

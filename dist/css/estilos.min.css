@@ -5,6 +5,7 @@
     padding: 10px 5%;
     overflow: hidden;
     border-bottom: 1px solid;
+    overflow: hidden;
   }
   header img {
     float: left;
@@ -126,8 +127,12 @@ header {
   width: 55%;
 }
 
-.contenedor-titulo h1 span {
+.world {
   text-decoration: line-through;
+}
+
+.punto {
+  color: blue;
 }
 
 .contenedor-titulo p {
@@ -138,18 +143,26 @@ header {
   .contenedor-titulo {
     margin: auto;
     margin-left: 12rem;
-    padding: 10px;
+    padding: 0.625rem;
     display: flex;
     flex-direction: column;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 .boton {
+  padding-top: 1rem;
+  display: block;
+  text-align: center;
   text-decoration: none;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 18px;
-  width: 18rem;
-  height: 3rem;
+  font-size: 1rem;
+  width: 16rem;
+  height: 2rem;
   background-color: #00F3BB;
   border: none;
   font-weight: bold;
@@ -169,9 +182,12 @@ header {
   z-index: 0;
 }
 
+.episodios {
+  margin-top: 25px;
+}
+
 #titulo-e {
   font-family: "IBM Plex Mono", monospace;
-  overflow: hidden;
   margin-top: -10px;
   font-size: 2.25rem;
 }
@@ -189,7 +205,7 @@ header {
     padding-top: 5rem;
     padding-bottom: 12rem;
     background-color: blue;
-    background: radial-gradient(circle, #2a0979 100%);
+    background: radial-gradient(circle, #2a0979 95%);
     clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
     z-index: 0;
   }
@@ -297,10 +313,14 @@ header {
     align-items: center;
     justify-content: center;
   }
+  ul {
+    width: 260px;
+    height: 20px;
+  }
   footer li {
     padding-top: 0;
-    padding-right: 0.50rem;
-    padding-left: 0.50rem;
+    padding-right: 0.90rem;
+    padding-left: 0.90rem;
     padding-bottom: 0;
   }
 }

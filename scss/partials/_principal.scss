@@ -1,21 +1,28 @@
-
 .contenedor-titulo h1{
     width: 55%;
 }
-.contenedor-titulo h1 span{
+.world{
     text-decoration: line-through;
+} 
+.punto{
+    color:blue;
+
 }
 .contenedor-titulo p{
     width: 55%;
 }
+
 @media (min-width:769px) { 
       .contenedor-titulo{
         margin: auto;
         margin-left: 12rem;
-        padding: 10px;
+        padding: 0.625rem;
         display: flex;
-        flex-direction: column;
-            
+        flex-direction: column;        
     }
-
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
