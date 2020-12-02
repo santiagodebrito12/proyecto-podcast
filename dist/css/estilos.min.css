@@ -123,8 +123,17 @@ header {
   overflow: hidden;
 }
 
-.contenedor-titulo h1 {
-  width: 55%;
+.subtitulo {
+  margin-left: 8%;
+}
+
+.contenedor-titulo {
+  margin-left: 10%;
+  width: 80%;
+}
+
+h1 {
+  width: 70%;
 }
 
 .world {
@@ -133,10 +142,11 @@ header {
 
 .punto {
   color: blue;
+  font-size: 30px;
 }
 
 .contenedor-titulo p {
-  width: 55%;
+  width: 80%;
 }
 
 @media (min-width: 769px) {
@@ -193,6 +203,7 @@ header {
 }
 
 #episodios .iframe {
+  margin-left: 4%;
   width: 85%;
   height: 16rem;
 }
@@ -214,6 +225,7 @@ header {
     z-index: 0;
   }
   div .container-episodios {
+    margin-left: 10%;
     margin: auto;
     display: flex;
     justify-content: space-between;
