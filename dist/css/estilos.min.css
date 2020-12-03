@@ -4,8 +4,6 @@
     height: 50px;
     padding: 10px 5%;
     overflow: hidden;
-    border-bottom: 1px solid;
-    overflow: hidden;
   }
   header img {
     float: left;
@@ -20,13 +18,14 @@
     width: 100%;
     height: 0px;
     opacity: 0;
-    background-color: #FFFFFF;
+    background-color: blue;
   }
   .menu li:hover {
-    background-color: grey;
+    background-color: blue;
+    color: white;
   }
   .menu a {
-    color: #060A24;
+    color: white;
     text-decoration: none;
     padding: 16px 5%;
     line-height: 28px;
@@ -110,6 +109,13 @@
     font-size: 16px;
     font-weight: bold;
   }
+  ul li a:hover {
+    color: #00F3BB;
+  }
+  ul li a:active {
+    color: #060A24;
+    text-decoration: line-through;
+  }
 }
 
 body {
@@ -117,6 +123,10 @@ body {
   font-family: "IBM Plex Mono", monospace;
   margin: 0px;
   padding: 0px;
+}
+
+body :root {
+  font-size: 16px;
 }
 
 header {
@@ -127,26 +137,31 @@ header {
   margin-left: 8%;
 }
 
-.contenedor-titulo {
-  margin-left: 10%;
-  width: 80%;
-}
-
-h1 {
-  width: 70%;
-}
-
-.world {
-  text-decoration: line-through;
-}
-
-.punto {
-  color: blue;
-  font-size: 30px;
-}
-
-.contenedor-titulo p {
-  width: 80%;
+@media (max-width: 768px) {
+  .contenedor-titulo {
+    margin-left: 10%;
+    width: 100%;
+  }
+  h1 {
+    width: 90%;
+  }
+  .world {
+    text-decoration: line-through;
+  }
+  .punto {
+    color: blue;
+    font-size: 30px;
+  }
+  .contenedor-titulo p {
+    width: 90%;
+  }
+  .tecnologia:disabled {
+    opacity: 0;
+  }
+  .boton:hover {
+    color: white;
+    background: linear-gradient(to right, #00F0B8, #0000FE);
+  }
 }
 
 @media (min-width: 769px) {
@@ -157,10 +172,19 @@ h1 {
     display: flex;
     flex-direction: column;
   }
-  .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .world {
+    text-decoration: line-through;
+  }
+  .punto {
+    color: blue;
+    font-size: 54px;
+  }
+  p {
+    width: 50%;
+  }
+  .boton:hover {
+    color: white;
+    background: linear-gradient(to right, #00F0B8, #0000FE);
   }
 }
 
@@ -238,10 +262,14 @@ h1 {
   }
 }
 
-#telefono {
-  margin-top: -100px;
-  position: relative;
-  z-index: 1;
+@media (max-width: 768px) {
+  #telefono {
+    margin-top: -100px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 9.5%;
+  }
 }
 
 @media (min-width: 769px) {
@@ -250,10 +278,17 @@ h1 {
     display: flex;
     justify-content: space-between;
   }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
   #telefono {
     margin-top: -150px;
     position: relative;
     z-index: 1;
+    width: 31.8%;
+    height: 16.9%;
   }
 }
 

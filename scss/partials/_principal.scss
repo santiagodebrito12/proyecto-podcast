@@ -1,9 +1,10 @@
+@media(max-width:768px){
 .contenedor-titulo {
     margin-left: 10%;
-    width: 80%;
+    width: 100%;
 }
 h1{
-    width: 70%;
+    width: 90%;
 }
 .world{
     text-decoration: line-through;
@@ -14,9 +15,17 @@ h1{
 
 }
 .contenedor-titulo p{
-    width: 80%;
+    width: 90%;
+}
+.tecnologia:disabled{
+    opacity: 0;
+}
+.boton:hover{
+    color: white;
+    background: linear-gradient(to right, #00F0B8,#0000FE);
 }
 
+}
 @media (min-width:769px) { 
       .contenedor-titulo{
         margin: auto;
@@ -25,9 +34,18 @@ h1{
         display: flex;
         flex-direction: column;        
     }
-.content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .world{
+        text-decoration: line-through;
+    } 
+    .punto{
+        color:blue;
+        font-size:54px;
+    }
+   p{
+       width: 50%;
+   }
+   .boton:hover{
+    color: white;
+    background: linear-gradient(to right, #00F0B8,#0000FE);
 }
 }
