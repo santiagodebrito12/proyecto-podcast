@@ -6,17 +6,30 @@
    width: 100%;
    height: 9.5%;
 }
+.container2{
+    margin-left: 4%;
+}
 }
 @media (min-width:769px) {
     .container{
-        padding: 90px;
+        margin: 4%;
+        width: 95%;
         display: flex;
         justify-content: space-between;
+
     }
-    .container2{
+    .conteiner2{
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        align-items: center;
+    }
+    .conteiner2 h2{
+        margin-left:-4rem;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    .conteiner2 p{
+        width: 50%;
     }
     #telefono{
         margin-top: -150px;
