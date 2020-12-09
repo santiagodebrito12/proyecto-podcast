@@ -3,15 +3,15 @@
     .conteiner5{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-    
+        align-items: center;
     }
     .conteiner5 h2{
         width: 100%;
         font-size: 1.25rem;
     }
     .conteiner5 a{
-        margin-left: 15%;
+        align-content: center;
+
     }
      #titulo-n{
          margin-left: 8%;

@@ -122,7 +122,6 @@
 body {
   background-color: #FFFFFF;
   font-family: "IBM Plex Mono", monospace;
-  margin: 0px;
   padding: 0px;
 }
 
@@ -156,9 +155,6 @@ header {
   }
   .contenedor-titulo p {
     width: 90%;
-  }
-  .tecnologia:disabled {
-    opacity: 0;
   }
   .boton:hover {
     color: white;
@@ -361,14 +357,14 @@ header {
   .conteiner5 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
   }
   .conteiner5 h2 {
     width: 100%;
     font-size: 1.25rem;
   }
   .conteiner5 a {
-    margin-left: 15%;
+    align-content: center;
   }
   #titulo-n {
     margin-left: 8%;
