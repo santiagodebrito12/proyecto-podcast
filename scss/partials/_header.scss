@@ -21,6 +21,7 @@ header{
           height: 0px;
           opacity: 0;
           background-color: blue;
+          overflow: hidden;
        }
        li{
           &:hover{
@@ -34,8 +35,7 @@ header{
           padding: 16px 5%;
           line-height: 28px;
           display: block;
-          
-
+      
           &:hover{
              color: white;
           }
@@ -103,8 +103,6 @@ input[type="checkbox"]:checked ~ ul {
    ul{
       display: flex;
       list-style: none;
-   
-      
    }
     ul li{
       text-decoration: none;
