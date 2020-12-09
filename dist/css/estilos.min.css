@@ -156,8 +156,11 @@ header {
     color: blue;
     font-size: 30px;
   }
-  .contenedor-titulo p {
+  .portal {
     width: 90%;
+  }
+  .tecnologia {
+    display: none;
   }
   .boton:hover {
     color: white;

@@ -17,8 +17,11 @@ h1{
     font-size:30px;
 }
 
-.contenedor-titulo p{
+.portal{
     width: 90%;
+}
+.tecnologia{
+    display: none;
 }
 
 .boton:hover{
@@ -50,6 +53,7 @@ h1{
        width: 60%;
        margin-top: -5px;
    }
+   
    .boton:hover{
     color: white;
     background: linear-gradient(to right, #00F0B8,#0000FE);
