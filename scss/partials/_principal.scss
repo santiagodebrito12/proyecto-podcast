@@ -31,9 +31,13 @@ h1{
       .contenedor-titulo{
         margin: auto;
         margin-left: 12rem;
-        padding: 0.625rem;
+        padding: 0.5rem;
         display: flex;
         flex-direction: column;        
+    }
+    h1{
+        font-size: 2rem;
+        font-weight: bolder;
     }
     .world{
         text-decoration: line-through;
@@ -42,8 +46,9 @@ h1{
         color:blue;
         font-size:54px;
     }
-   p{
-       width: 50%;
+   .portal{
+       width: 60%;
+       margin-top: -5px;
    }
    .boton:hover{
     color: white;
