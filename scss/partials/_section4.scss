@@ -20,7 +20,7 @@ div .hijos-temas {
 
 @media (min-width:769px){
     div #temas{
-        font-weight: bold;
+        font-weight: bolder;
         display: flex;
         justify-content: space-around;
     }
@@ -29,8 +29,13 @@ div .hijos-temas {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        font-weight: bold;
-        
+        font-weight: bolder;  
+    }
+    .w50{
+       width: 50%;
+   }
+     .w100{
+        width: 100%;
     }
 }    
 
